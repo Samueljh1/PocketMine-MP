@@ -47,6 +47,10 @@ class PlayerDeathEvent extends EntityDeathEvent{
 	public function getEntity(){
 		return $this->entity;
 	}
+	
+	public function getPlayer(){
+		return $this->entity;
+	}
 
 	public function getDeathMessage(){
 		return $this->deathMessage;
